@@ -13,28 +13,11 @@ int main() {
 		cin >> s;
 		int i = 0;
 		int count = 0;
-		while (i < n) {
+
+		for (int i = 0; i < n; i++) {
 
 			if (s[i] == '*') {
-				while (s[i] == '*') {
-					count++;
-					i++;
-				}
 
-				if (count >= k) {
-
-					cout << "YES" << endl;
-					continue;
-				}
-				else {
-					count = 0;
-				}
-			}
-
-			else {
-
-				i++;
-				count = 0;
 
 			}
 		}
